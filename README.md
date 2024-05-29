@@ -1,3 +1,24 @@
+Esta aplicación implementa un quiosco de comida con una interfaz para que los usuarios puedan navegar por diferentes categorías de productos y generar sus ordenes
+
+Para la versión 0.60 se decidió realizar la interfaz principal del usuario para que pueda realizar sus ordenes y tener un vistazo general de su vista.
+
+VERSIÓN 0.60 29/05/2024
+FUNCIONALIDADES PRINCIAPLES
+
+----------CLIENTE-------------
+*Se implementó un menú vertical con todas las categorias disponibles de productos para realizar su pedido con sus íconos ilustrativos para una mejor UX.
+
+*Se implementó una lista de todos los productos disponibles con sus precios, imágenes y botón correspondiente de agregar al carrito.
+
+*Se implementó un sistema de carrito de compras que al agregar un prodcuto con su botón correspondiente, se agrega a una lista vertical del lado derecho de la pantalla mostrando el nombre del producto, su precio, la cantidad que se desea pedir, el subtotal de cada cantidad de productos y el total del pedido.
+
+*Se implementó una confirmación de pedidos, para que el cliente complete su pedido y sea mandado al sistema de cocina para su posterior preparación.
+
+----------COCINA---------
+*Se implementó un sistema en tiempo real que muestra los pedidos confirmados por los clientes con los detalles de la orden y los productos a preparar con el fin de llevar un manejo de pedidos y mejorar la eficiencia de los mismos.
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
